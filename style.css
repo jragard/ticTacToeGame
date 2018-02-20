@@ -1,7 +1,8 @@
 td {
-    border: 1px solid blue;
+    border: 3px solid black;;
     width: 100px;
     height: 100px;
+    margin: 0px;
 }
 
 td:hover {
@@ -9,6 +10,22 @@ td:hover {
 }
 
 table {
-    border: 1px solid green;
+    border: 6px solid black;
+    cursor: pointer;
+    margin: auto;
+    background-color: gray;
+
 }
 
+.cellText {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h4 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
